@@ -1,0 +1,17 @@
+name        = "ripgrep"
+description = "Recursively search directories for a regex pattern"
+homepage    = "https://github.com/BurntSushi/ripgrep"
+repo        = "BurntSushi/ripgrep"
+license     = "MIT OR Unlicense"
+
+archs = ["aarch64-apple-darwin", "x86_64-apple-darwin"]
+
+[binary]
+main     = "rg"
+bin_path = "ripgrep-{version}-{platform}"
+
+[asset]
+url = "https://github.com/BurntSushi/ripgrep/releases/download/{version}/ripgrep-{version}-{platform}.tar.gz"
+
+[versions]
+"15.1.0" = { released = "2025-10-30", sha256 = { "aarch64-apple-darwin" = "378e973289176ca0c6054054ee7f631a065874a352bf43f0fa60ef079b6ba715", "x86_64-apple-darwin" = "64811cb24e77cac3057d6c40b63ac9becf9082eedd54ca411b475b755d334882" } }
