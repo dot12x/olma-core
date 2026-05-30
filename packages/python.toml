@@ -1,0 +1,18 @@
+name        = "python"
+description = "The Python programming language interpreter"
+homepage    = "https://python.org"
+repo        = "astral-sh/python-build-standalone"
+license     = "PSF-2.0"
+
+archs = ["aarch64-apple-darwin", "x86_64-apple-darwin"]
+
+[binary]
+main        = "python3"
+bin_path    = "python/install/bin"
+bin_aliases = ["python{major}.{minor}"]
+
+[asset]
+url = "https://github.com/astral-sh/python-build-standalone/releases/download/20260510/cpython-{version}-{platform}-install_only.tar.gz"
+
+[versions]
+"3.13.13+20260510" = { released = "2026-05-10", sha256 = { "aarch64-apple-darwin" = "1ad1ed518447005d4b6dfa16d4f847d45790e17e94e30164a0a6e6c79a99730f", "x86_64-apple-darwin" = "7d8598ee0ee6f589938311ec35ddb5e20799a0c7d34c1eade51b65a86eda2210" } }
