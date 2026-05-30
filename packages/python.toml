@@ -8,7 +8,7 @@ archs = ["aarch64-apple-darwin", "x86_64-apple-darwin"]
 
 [binary]
 main        = "python3"
-bin_path    = "python/install/bin"
+bin_path    = "python/bin"
 bin_aliases = ["python{major}.{minor}"]
 
 [asset]
