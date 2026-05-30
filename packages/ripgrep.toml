@@ -15,3 +15,4 @@ url = "https://github.com/BurntSushi/ripgrep/releases/download/{version}/ripgrep
 
 [versions]
 "15.1.0" = { released = "2025-10-30", sha256 = { "aarch64-apple-darwin" = "378e973289176ca0c6054054ee7f631a065874a352bf43f0fa60ef079b6ba715", "x86_64-apple-darwin" = "64811cb24e77cac3057d6c40b63ac9becf9082eedd54ca411b475b755d334882" } }
+"14.1.1" = { released = "2024-09-04", sha256 = { "aarch64-apple-darwin" = "24ad76777745fbff131c8fbc466742b011f925bfa4fffa2ded6def23b5b937be", "x86_64-apple-darwin" = "fc87e78f7cb3fea12d69072e7ef3b21509754717b746368fd40d88963630e2b3" } }
