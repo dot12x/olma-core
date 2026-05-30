@@ -1,0 +1,17 @@
+name        = "fd"
+description = "A simple, fast and user-friendly alternative to find"
+homepage    = "https://github.com/sharkdp/fd"
+repo        = "sharkdp/fd"
+license     = "MIT OR Apache-2.0"
+
+archs = ["aarch64-apple-darwin"]
+
+[binary]
+main     = "fd"
+bin_path = "fd-v{version}-{platform}"
+
+[asset]
+url = "https://github.com/sharkdp/fd/releases/download/v{version}/fd-v{version}-{platform}.tar.gz"
+
+[versions]
+"10.4.2" = { released = "2025-10-14", sha256 = { "aarch64-apple-darwin" = "623dc0afc81b92e4d4606b380d7bc91916ba7b97814263e554d50923a39e480a" } }

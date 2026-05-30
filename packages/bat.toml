@@ -1,0 +1,17 @@
+name        = "bat"
+description = "A cat clone with syntax highlighting and Git integration"
+homepage    = "https://github.com/sharkdp/bat"
+repo        = "sharkdp/bat"
+license     = "MIT OR Apache-2.0"
+
+archs = ["aarch64-apple-darwin", "x86_64-apple-darwin"]
+
+[binary]
+main     = "bat"
+bin_path = "bat-v{version}-{platform}"
+
+[asset]
+url = "https://github.com/sharkdp/bat/releases/download/v{version}/bat-v{version}-{platform}.tar.gz"
+
+[versions]
+"0.26.1" = { released = "2025-09-30", sha256 = { "aarch64-apple-darwin" = "e30beff26779c9bf60bb541e1d79046250cb74378f2757f8eb250afddb19e114", "x86_64-apple-darwin" = "830d63b0bba1fa040542ec569e3cf77f60d3356b9de75116a344b061e0894245" } }
