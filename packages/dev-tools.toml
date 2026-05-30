@@ -1,0 +1,7 @@
+name        = "dev-tools"
+description = "Essential developer CLI tools (ripgrep, bat, fd)"
+homepage    = "https://github.com/dot12x/olma-core"
+repo        = "dot12x/olma-core"
+license     = "MIT OR Apache-2.0"
+
+dependencies = ["ripgrep", "bat", "fd"]
